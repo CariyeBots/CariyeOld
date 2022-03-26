@@ -1,0 +1,18 @@
+Error on 8/8/2021
+
+DBM Error:
+Error with the command "Play YouTube Video", Action #27
+
+JavaScript Error -
+
+Error: FFmpeg/avconv not found!
+    at Function.getInfo (/home/runner/cari/node_modules/prism-media/src/core/FFmpeg.js:143:11)
+    at Function.create (/home/runner/cari/node_modules/prism-media/src/core/FFmpeg.js:156:38)
+    at new FFmpeg (/home/runner/cari/node_modules/prism-media/src/core/FFmpeg.js:45:27)
+    at AudioPlayer.playUnknown (/home/runner/cari/node_modules/discord.js/src/client/voice/player/BasePlayer.js:47:20)
+    at VoiceConnection.play (/home/runner/cari/node_modules/discord.js/src/client/voice/util/PlayInterface.js:71:28)
+    at Object.Audio.playYt (/home/runner/cari/bot.js:1559:46)
+    at Object.DBM.Audio.playItem (/home/runner/cari/actions/aaa_dbmmods_dependencies_MOD.js:354:34)
+    at Object.DBM.Audio.playItem (/home/runner/cari/events/on_audio_start_EVT.js:10:26)
+    at Object.action [as Play YouTube Video] (/home/runner/cari/actions/play_youtube.js:135:11)
+    at Object.Actions.callNextAction (/home/runner/cari/bot.js:550:18)

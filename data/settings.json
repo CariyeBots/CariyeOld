@@ -1,0 +1,49 @@
+{
+  "token": "bot-token",
+  "client": "bot-id",
+  "tag": ".",
+  "case": "true",
+  "separator": "\\s+",
+  "modules": {
+    "discord.js": [
+      "",
+      true
+    ],
+    "fstorm": [
+      "",
+      true
+    ],
+    "jimp": [
+      "",
+      true
+    ],
+    "libsodium-wrappers": [
+      "",
+      true
+    ],
+    "opusscript": [
+      "",
+      true
+    ],
+    "ytdl-core": [
+      "",
+      true
+    ]
+  },
+  "ownerId": "owner-id",
+  "Bot Intents": {
+    "customData": {
+      "Bot Intents": {
+        "intents": -1
+      }
+    }
+  },
+  "Test Extension": {
+    "customData": {
+      "Test Extension": {
+        "input1": 0,
+        "input2": 0
+      }
+    }
+  }
+}
